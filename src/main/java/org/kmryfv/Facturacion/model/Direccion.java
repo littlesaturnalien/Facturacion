@@ -15,4 +15,8 @@ public class Direccion {
     int codigoPostal;
 
     @Column(length = 20)
+    String municipio;
+
+    @Column(length = 30)
+    String provincia;
 }
